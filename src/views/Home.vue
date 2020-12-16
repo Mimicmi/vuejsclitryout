@@ -1,6 +1,6 @@
 <template>
     <!--zone html-->
-    <h1>Hello VUE 3</h1>
+    <h1 class="w3-animate-left">Hello VUE 3</h1>
     <h2>{{ title }}</h2>
     <img src="../assets/logo.png" alt="">
 </template>
@@ -10,7 +10,7 @@
         name: 'Home',
         data() {
             return {
-                title: "Test titre OMEGALUL",
+                title: "Test titre YOUPI",
             }
         },
         methods: {

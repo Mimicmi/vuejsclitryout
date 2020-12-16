@@ -1,6 +1,6 @@
 <template>
     <!--zone html-->
-    <h1>Shop</h1>
+    <h1 class="w3-animate-left">Shop</h1>
     <h2>{{ title }}</h2>
 </template>
 
