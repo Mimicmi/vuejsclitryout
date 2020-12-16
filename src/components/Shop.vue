@@ -1,16 +1,15 @@
 <template>
     <!--zone html-->
-    <h1>Hello VUE 3</h1>
+    <h1>Shop</h1>
     <h2>{{ title }}</h2>
-    <img src="../assets/logo.png" alt="">
 </template>
 
 <script>
     export default {
-        name: 'Home',
+        name: 'Shop',
         data() {
             return {
-                title: "Test titre OMEGALUL",
+                title: "Shop component title",
             }
         },
         methods: {

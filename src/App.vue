@@ -1,13 +1,21 @@
 <template>
+    <nav>
+        <ul>
+            <li><router-link to="/">Home</router-link></li>
+            <li><router-link to="/shop">Shop</router-link></li>
+            <li><router-link to="/contact">Contact</router-link></li>
+        </ul>
+    </nav>
 
     <Header>
-        <p>This is a slot zone</p>
+        <p><i class="fa fa-home"></i>This is a slot zone</p>
         <template v-slot:welcome>
             This is a welcome message from the named SLOT
         </template>
     </Header>
-    <div>
-        <h2>CONTENT avec H2</h2>
+
+    <div class="w3-container">
+        <router-view />
     </div>
     <Footer/>
 
@@ -17,12 +25,18 @@
 
     import Header from "./components/Header";
     import Footer from "./components/Footer";
+/*    import Product from "./components/Product";
+    import Contact from "./components/Contact";
+    import Shop from "./components/Shop";*/
 
     export default {
         name: 'App',
         components: {
+            /*Product,*/
             Footer,
             Header,
+/*            Contact,
+            Shop*/
         },
         data() {
             return {

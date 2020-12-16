@@ -1,19 +1,24 @@
 <template>
-    <h2>Footer</h2>
-    <p>This is my Footer component</p>
+    <div>This is my Product component</div>
 </template>
 
 <script>
     export default {
-        name: 'Footer',
+        title: 'Product',
         data() {
             return {
 
             }
+        },
+        methods: {
+
+        },
+        computed: {
+
         }
     }
 </script>
 
-<style scoped>
+<style>
 
 </style>
